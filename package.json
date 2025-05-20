@@ -1,0 +1,27 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "keywords": [],
+  "author": "Elvedina Ibrahimovic",
+  "license": "ISC",
+  "description": "Recipe application",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.14.4",
+    "buffer": "^6.0.3",
+    "events": "^3.3.0",
+    "parcel": "^2.14.4",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "svgo": "^3.3.2",
+    "util": "^0.12.5"
+  },
+  "dependencies": {
+    "core-js": "^3.42.0",
+    "fracty": "^1.0.12",
+    "regenerator-runtime": "^0.14.1"
+  }
+}
